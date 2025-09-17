@@ -382,12 +382,12 @@ def debug():
 if __name__ == '__main__':
     # Add sample data for testing
     sample_students = [
-        Student('s1', 'Alice Johnson', ['Python', 'Machine Learning', 'Data Analysis'],
-                'Computer Science', 3.8, ['New York', 'San Francisco'], ['Technology'], 'intermediate'),
-        Student('s2', 'Bob Smith', ['Java', 'Spring Boot', 'SQL'],
-                'Software Engineering', 3.6, ['Boston', 'Austin'], ['Technology', 'Finance'], 'beginner'),
-        Student('s3', 'Carol Davis', ['Marketing', 'Social Media', 'Analytics'],
-                'Business', 3.7, ['Chicago', 'Denver'], ['Marketing', 'Consulting'], 'intermediate')
+        Student('s1', 'Anshika', ['Python', 'Machine Learning', 'Data Analysis'],
+                'Computer Science', 3.8, ['lucknow', 'charbagh'], ['Technology'], 'intermediate'),
+        Student('s2', 'Balvinder', ['Java', 'Spring Boot', 'SQL'],
+                'Software Engineering', 3.6, ['Bombay', 'navivhar'], ['Technology', 'Finance'], 'beginner'),
+        Student('s3', 'Chanchal', ['Marketing', 'Social Media', 'Analytics'],
+                'Business', 3.7, ['Canada', 'Denver'], ['Marketing', 'Consulting'], 'intermediate')
     ]
     
     sample_internships = [
